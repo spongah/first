@@ -1,7 +1,7 @@
-<h1>Irie reggae band name generator</h1>
+<h1><%=@header_adj%> reggae band name generator</h1>
+<% @punctuation=['.', '!', '!!', '!!!', ', mon.', ', mon!', ', JAH!!'].sample %>
 <p>
-	<font size=+1 color=green>
-Jah say, name your band <%=@bandname%>
-</font>
+	<font size=+1 color=green><%=@commandment%> <b><%=@bandname.upcase%></b><%=@punctuation%>
+	</font>
 </p>
 
